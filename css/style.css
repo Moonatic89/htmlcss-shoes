@@ -6,6 +6,10 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: 'Rubik Mono One', sans-serif;
+}
+
 /* #endregion */
 
 /* #region Scrolling */
@@ -14,12 +18,31 @@ html {
     scroll-behavior: smooth;
 }
 
-/* 
-#section1 {}
+.scrolling_buttons {
+    position: fixed;
+    top: 50px;
+    right: .5rem;
+}
 
-#section2 {}
+.scroll_button {
+    background-color: white;
+    display: inline-block;
+    border-radius: 50%;
+    font-size: 2rem;
+    font-weight: 900;
+    vertical-align: middle;
+    text-align: center;
+    height: 70px;
+    line-height: 70px;
+    width: 70px;
+    margin-left: 30px;
+    ;
+}
 
-#section3 {} */
+.scroll_button a:hover, .scroll_button a:visited, .scroll_button a:link, .scroll_button a:active {
+    text-decoration: none;
+    color: black;
+}
 
 /* #endregion */
 
@@ -45,7 +68,6 @@ html {
 .product_text {
     text-align: center;
     width: 40%;
-    font-family: 'Rubik Mono One', sans-serif;
     font-size: 4rem;
     font-weight: 900;
     position: absolute;
