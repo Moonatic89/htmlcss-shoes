@@ -1,0 +1,29 @@
+/* #region Essentials */
+
+* {
+    width: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* #endregion */
+
+/* #region Main */
+
+body {
+    width: 800px;
+}
+
+/* #endregion */
+
+/* #region Footer */
+
+footer {
+    text-align: center;
+}
+
+footer span {
+    color: turquoise;
+}
+
+/* #endregion */
